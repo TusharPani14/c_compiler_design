@@ -1,0 +1,1337 @@
+Running: 15
+
+
+Running TestCase 1
+************************************************************
+#include<stdio.h> 	-Preprocessor statement
+int 	- Keyword
+main 	- Keyword
+( 	- opening brackets
+) 	- closing brackets
+{ 	- opening curly brackets
+char 	- Keyword
+ch 	- Identifier
+; 	- semicolon
+int 	- Keyword
+n 	- Identifier
+, 	- comma separator
+i 	- Identifier
+; 	- semicolon
+for 	- Keyword
+( 	- opening brackets
+i 	- Identifier
+= 	- Operator
+0 	- Integer Constant
+; 	- semicolon
+i 	- Identifier
+< 	- Operator
+n 	- Identifier
+; 	- semicolon
+i 	- Identifier
+++ 	- Operator
+) 	- closing brackets
+{ 	- opening curly brackets
+if 	- Keyword
+( 	- opening brackets
+i 	- Identifier
+< 	- Operator
+10 	- Integer Constant
+) 	- closing brackets
+{ 	- opening curly brackets
+int 	- Keyword
+ite 	- Identifier
+; 	- semicolon
+while 	- Keyword
+( 	- opening brackets
+ite 	- Identifier
+< 	- Operator
+10 	- Integer Constant
+) 	- closing brackets
+{ 	- opening curly brackets
+ite 	- Identifier
+++ 	- Operator
+; 	- semicolon
+printf 	- Keyword
+( 	- opening brackets
+"%d" 	- String Constant
+, 	- comma separator
+ite 	- Identifier
+) 	- closing brackets
+; 	- semicolon
+} 	- closing curly brackets
+} 	- closing curly brackets
+} 	- closing curly brackets
+} 	- closing curly brackets
+
+
+Symbol Table
+
+char	Keyword
+i	Identifier
+n	Identifier
+for	Keyword
+main	Keyword
+ch	Identifier
+while	Keyword
+if	Keyword
+int	Keyword
+ite	Identifier
+printf	Keyword
+
+
+Constant Table
+
+"%d"	String Constant
+10	Integer Constant
+0	Integer Constant
+************************************************************
+
+
+Running TestCase 2
+************************************************************
+#include<stdio.h> 	-Preprocessor statement
+int 	- Keyword
+fun 	- Identifier
+( 	- opening brackets
+int 	- Keyword
+x 	- Identifier
+) 	- closing brackets
+{ 	- opening curly brackets
+return 	- Keyword
+x 	- Identifier
+* 	- Operator
+x 	- Identifier
+; 	- semicolon
+} 	- closing curly brackets
+int 	- Keyword
+main 	- Keyword
+( 	- opening brackets
+) 	- closing brackets
+{ 	- opening curly brackets
+int 	- Keyword
+a 	- Identifier
+= 	- Operator
+2 	- Integer Constant
+, 	- comma separator
+b 	- Identifier
+, 	- comma separator
+c 	- Identifier
+, 	- comma separator
+d 	- Identifier
+, 	- comma separator
+e 	- Identifier
+, 	- comma separator
+f 	- Identifier
+, 	- comma separator
+g 	- Identifier
+, 	- comma separator
+h 	- Identifier
+; 	- semicolon
+c 	- Identifier
+= 	- Operator
+a 	- Identifier
++ 	- Operator
+b 	- Identifier
+; 	- semicolon
+d 	- Identifier
+= 	- Operator
+a 	- Identifier
+* 	- Operator
+b 	- Identifier
+; 	- semicolon
+e 	- Identifier
+= 	- Operator
+a 	- Identifier
+/ 	- Operator
+b 	- Identifier
+; 	- semicolon
+f 	- Identifier
+= 	- Operator
+a 	- Identifier
+% 	- Operator
+b 	- Identifier
+; 	- semicolon
+g 	- Identifier
+= 	- Operator
+a 	- Identifier
+& 	- Operator
+b 	- Identifier
+; 	- semicolon
+h 	- Identifier
+= 	- Operator
+a 	- Identifier
+| 	- Operator
+b 	- Identifier
+; 	- semicolon
+h 	- Identifier
+= 	- Operator
+fun 	- Identifier
+( 	- opening brackets
+b 	- Identifier
+) 	- closing brackets
+; 	- semicolon
+} 	- closing curly brackets
+
+
+Symbol Table
+
+a	Identifier
+b	Identifier
+c	Identifier
+d	Identifier
+e	Identifier
+f	Identifier
+g	Identifier
+h	Identifier
+x	Identifier
+fun	Identifier
+main	Keyword
+int	Keyword
+return	Keyword
+
+
+Constant Table
+
+2	Integer Constant
+************************************************************
+
+
+Running TestCase 3
+************************************************************
+#include<stdio.h> 	-Preprocessor statement
+int 	- Keyword
+main 	- Keyword
+( 	- opening brackets
+) 	- closing brackets
+{ 	- opening curly brackets
+char 	- Keyword
+s 	- Array Identifier
+[ 	- opening square brackets
+10 	- Integer Constant
+] 	- closing square brackets
+= 	- Operator
+"Well done!" 	- String Constant
+; 	- semicolon
+int 	- Keyword
+arr 	- Array Identifier
+[ 	- opening square brackets
+2 	- Integer Constant
+] 	- closing square brackets
+= 	- Operator
+{ 	- opening curly brackets
+1 	- Integer Constant
+, 	- comma separator
+2 	- Integer Constant
+} 	- closing curly brackets
+; 	- semicolon
+char 	- Keyword
+S 	- Array Identifier
+[ 	- opening square brackets
+20 	- Integer Constant
+] 	- closing square brackets
+; 	- semicolon
+int 	- Keyword
+p 	- Identifier
+; 	- semicolon
+if 	- Keyword
+( 	- opening brackets
+s 	- Array Identifier
+[ 	- opening square brackets
+0 	- Integer Constant
+] 	- closing square brackets
+== 	- Operator
+'W' 	- Character Constant
+) 	- closing brackets
+{ 	- opening curly brackets
+if 	- Keyword
+( 	- opening brackets
+s 	- Array Identifier
+[ 	- opening square brackets
+1 	- Integer Constant
+] 	- closing square brackets
+== 	- Operator
+'e' 	- Character Constant
+) 	- closing brackets
+{ 	- opening curly brackets
+if 	- Keyword
+( 	- opening brackets
+s 	- Array Identifier
+[ 	- opening square brackets
+2 	- Integer Constant
+] 	- closing square brackets
+== 	- Operator
+'l' 	- Character Constant
+) 	- closing brackets
+{ 	- opening curly brackets
+printf 	- Keyword
+( 	- opening brackets
+"Well done!" 	- String Constant
+) 	- closing brackets
+; 	- semicolon
+} 	- closing curly brackets
+else 	- Keyword
+printf 	- Keyword
+( 	- opening brackets
+"Bug\n" 	- String Constant
+) 	- closing brackets
+; 	- semicolon
+} 	- closing curly brackets
+else 	- Keyword
+printf 	- Keyword
+( 	- opening brackets
+"Bug1\n" 	- String Constant
+) 	- closing brackets
+; 	- semicolon
+} 	- closing curly brackets
+else 	- Keyword
+printf 	- Keyword
+( 	- opening brackets
+"Bug2\n" 	- String Constant
+) 	- closing brackets
+; 	- semicolon
+} 	- closing curly brackets
+
+
+Symbol Table
+
+char	Keyword
+S	Identifier
+p	Identifier
+s	Identifier
+main	Keyword
+if	Keyword
+int	Keyword
+else	Keyword
+printf	Keyword
+arr	Identifier
+
+
+Constant Table
+
+"Bug\n"	String Constant
+"Bug2\n"	String Constant
+"Bug1\n"	String Constant
+'W'	Character Constant
+"Well done!"	String Constant
+'e'	Character Constant
+'l'	Character Constant
+10	Integer Constant
+20	Integer Constant
+0	Integer Constant
+1	Integer Constant
+2	Integer Constant
+************************************************************
+
+
+Running TestCase 4
+************************************************************
+#include<stdio.h> 	-Preprocessor statement
+int 	- Keyword
+main 	- Keyword
+( 	- opening brackets
+) 	- closing brackets
+{ 	- opening curly brackets
+int 	- Keyword
+arr 	- Array Identifier
+[ 	- opening square brackets
+3 	- Integer Constant
+] 	- closing square brackets
+= 	- Operator
+{ 	- opening curly brackets
+1 	- Integer Constant
+, 	- comma separator
+2 	- Integer Constant
+} 	- closing curly brackets
+; 	- semicolon
+arr 	- Array Identifier
+[ 	- opening square brackets
+2 	- Integer Constant
+] 	- closing square brackets
+= 	- Operator
+arr 	- Array Identifier
+[ 	- opening square brackets
+1 	- Integer Constant
+] 	- closing square brackets
++ 	- Operator
+arr 	- Array Identifier
+[ 	- opening square brackets
+2 	- Integer Constant
+] 	- closing square brackets
+; 	- semicolon
+arr 	- Array Identifier
+[ 	- opening square brackets
+2 	- Integer Constant
+] 	- closing square brackets
+++ 	- Operator
+; 	- semicolon
+/*checking for multi
+	line 
+	comment*/ 	- multiple line comment
+printf 	- Keyword
+( 	- opening brackets
+"%d" 	- String Constant
+, 	- comma separator
+arr 	- Array Identifier
+[ 	- opening square brackets
+2 	- Integer Constant
+] 	- closing square brackets
+) 	- closing brackets
+; 	- semicolon
+return 	- Keyword
+0 	- Integer Constant
+; 	- semicolon
+} 	- closing curly brackets
+
+
+Symbol Table
+
+main	Keyword
+int	Keyword
+printf	Keyword
+arr	Identifier
+return	Keyword
+
+
+Constant Table
+
+"%d"	String Constant
+0	Integer Constant
+1	Integer Constant
+2	Integer Constant
+3	Integer Constant
+************************************************************
+
+
+Running TestCase 5
+************************************************************
+#include<stdio.h> 	-Preprocessor statement
+int 	- Keyword
+main 	- Keyword
+( 	- opening brackets
+) 	- closing brackets
+{ 	- opening curly brackets
+int 	- Keyword
+a 	- Identifier
+= 	- Operator
+5 	- Integer Constant
+; 	- semicolon
+while 	- Keyword
+( 	- opening brackets
+a 	- Identifier
+> 	- Operator
+0 	- Integer Constant
+) 	- closing brackets
+{ 	- opening curly brackets
+printf 	- Keyword
+( 	- opening brackets
+"Hello world" 	- String Constant
+) 	- closing brackets
+; 	- semicolon
+a 	- Identifier
+-- 	- Operator
+; 	- semicolon
+} 	- closing curly brackets
+a 	- Identifier
+= 	- Operator
+4 	- Integer Constant
+; 	- semicolon
+while 	- Keyword
+( 	- opening brackets
+a 	- Identifier
+> 	- Operator
+0 	- Integer Constant
+) 	- closing brackets
+{ 	- opening curly brackets
+printf 	- Keyword
+( 	- opening brackets
+"%d" 	- String Constant
+, 	- comma separator
+a 	- Identifier
+) 	- closing brackets
+; 	- semicolon
+a 	- Identifier
+-- 	- Operator
+; 	- semicolon
+int 	- Keyword
+b 	- Identifier
+= 	- Operator
+4 	- Integer Constant
+; 	- semicolon
+while 	- Keyword
+( 	- opening brackets
+b 	- Identifier
+> 	- Operator
+0 	- Integer Constant
+) 	- closing brackets
+{ 	- opening curly brackets
+printf 	- Keyword
+( 	- opening brackets
+"%d" 	- String Constant
+, 	- comma separator
+a 	- Identifier
+* 	- Operator
+b 	- Identifier
+) 	- closing brackets
+; 	- semicolon
+b 	- Identifier
+-- 	- Operator
+; 	- semicolon
+} 	- closing curly brackets
+} 	- closing curly brackets
+} 	- closing curly brackets
+
+
+Symbol Table
+
+a	Identifier
+b	Identifier
+main	Keyword
+while	Keyword
+int	Keyword
+printf	Keyword
+
+
+Constant Table
+
+"%d"	String Constant
+"Hello world"	String Constant
+0	Integer Constant
+4	Integer Constant
+5	Integer Constant
+************************************************************
+
+
+Running TestCase 6
+************************************************************
+#include<stdio.h> 	-Preprocessor statement
+int 	- Keyword
+main 	- Keyword
+( 	- opening brackets
+) 	- closing brackets
+{ 	- opening curly brackets
+int 	- Keyword
+a 	- Identifier
+= 	- Operator
+2 	- Integer Constant
+; 	- semicolon
+printf 	- Keyword
+( 	- opening brackets
+"%d" 	- String Constant
+, 	- comma separator
+a 	- Identifier
+) 	- closing brackets
+; 	- semicolon
+a 	- Identifier
+++ 	- Operator
+; 	- semicolon
+int 	- Keyword
+b 	- Identifier
+= 	- Operator
+4 	- Integer Constant
+; 	- semicolon
+int 	- Keyword
+c 	- Identifier
+= 	- Operator
+3 	- Integer Constant
+; 	- semicolon
+/*nested 
+	comment/*error*/ 	- multiple line comment
+ERROR: at line no. 10
+*
+
+
+Symbol Table
+
+a	Identifier
+b	Identifier
+c	Identifier
+main	Keyword
+int	Keyword
+printf	Keyword
+
+
+Constant Table
+
+"%d"	String Constant
+2	Integer Constant
+3	Integer Constant
+4	Integer Constant
+************************************************************
+
+
+Running TestCase 7
+************************************************************
+#include<stdio.h> 	-Preprocessor statement
+int 	- Keyword
+square 	- Identifier
+( 	- opening brackets
+int 	- Keyword
+a 	- Identifier
+) 	- closing brackets
+{ 	- opening curly brackets
+return 	- Keyword
+( 	- opening brackets
+a 	- Identifier
+* 	- Operator
+a 	- Identifier
+) 	- closing brackets
+; 	- semicolon
+} 	- closing curly brackets
+int 	- Keyword
+main 	- Keyword
+( 	- opening brackets
+) 	- closing brackets
+{ 	- opening curly brackets
+int 	- Keyword
+num 	- Identifier
+= 	- Operator
+2 	- Integer Constant
+; 	- semicolon
+int 	- Keyword
+num2 	- Identifier
+= 	- Operator
+square 	- Identifier
+( 	- opening brackets
+num 	- Identifier
+) 	- closing brackets
+; 	- semicolon
+printf 	- Keyword
+( 	- opening brackets
+"Square of %d is %d" 	- String Constant
+, 	- comma separator
+num 	- Identifier
+, 	- comma separator
+num2 	- Identifier
+) 	- closing brackets
+; 	- semicolon
+return 	- Keyword
+0 	- Integer Constant
+; 	- semicolon
+} 	- closing curly brackets
+
+
+Symbol Table
+
+num	Identifier
+a	Identifier
+square	Identifier
+num2	Identifier
+main	Keyword
+int	Keyword
+printf	Keyword
+return	Keyword
+
+
+Constant Table
+
+"Square of %d is %d"	String Constant
+0	Integer Constant
+2	Integer Constant
+************************************************************
+
+
+Running TestCase 8
+************************************************************
+#include<stdio.h> 	-Preprocessor statement
+#define NUM 5 	-Definition
+int 	- Keyword
+main 	- Keyword
+( 	- opening brackets
+) 	- closing brackets
+{ 	- opening curly brackets
+char 	- Keyword
+A 	- Array Identifier
+[ 	- opening square brackets
+] 	- closing square brackets
+= 	- Operator
+"Hey" 	- String Constant
+; 	- semicolon
+char 	- Keyword
+B 	- Array Identifier
+[ 	- opening square brackets
+] 	- closing square brackets
+= 	- Operator
+"Hello" 	- String Constant
+; 	- semicolon
+char 	- Keyword
+ch 	- Identifier
+= 	- Operator
+'B' 	- Character Constant
+; 	- semicolon
+unsigned 	- Keyword
+a 	- Identifier
+= 	- Operator
+1 	- Integer Constant
+; 	- semicolon
+printf 	- Keyword
+( 	- opening brackets
+"String = %s Value of Pi = %f" 	- String Constant
+, 	- comma separator
+A 	- Identifier
+, 	- comma separator
+3.14 	- Floating Constant
+) 	- closing brackets
+; 	- semicolon
+return 	- Keyword
+0 	- Integer Constant
+; 	- semicolon
+} 	- closing curly brackets
+
+
+Symbol Table
+
+A	Identifier
+B	Identifier
+char	Keyword
+a	Identifier
+main	Keyword
+ch	Identifier
+int	Keyword
+unsigned	Keyword
+printf	Keyword
+return	Keyword
+
+
+Constant Table
+
+3.14	Floating Constant
+"String = %s Value of Pi = %f"	String Constant
+"Hey"	String Constant
+'B'	Character Constant
+"Hello"	String Constant
+0	Integer Constant
+1	Integer Constant
+************************************************************
+
+
+Running TestCase 9
+************************************************************
+#include<stdio.h> 	-Preprocessor statement
+//program with commented out end  	- same line comment
+struct 	- Keyword
+student 	- Identifier
+{ 	- opening curly brackets
+int 	- Keyword
+rollNum 	- Identifier
+; 	- semicolon
+int 	- Keyword
+marks 	- Identifier
+; 	- semicolon
+} 	- closing curly brackets
+student1 	- Identifier
+; 	- semicolon
+int 	- Keyword
+main 	- Keyword
+( 	- opening brackets
+) 	- closing brackets
+{ 	- opening curly brackets
+int 	- Keyword
+a 	- Identifier
+= 	- Operator
+1 	- Integer Constant
+, 	- comma separator
+b 	- Identifier
+= 	- Operator
+0 	- Integer Constant
+; 	- semicolon
+student1 	- Identifier
+. 	- dot
+rollNum 	- Identifier
+= 	- Operator
+1 	- Integer Constant
+; 	- semicolon
+student1 	- Identifier
+. 	- dot
+marks 	- Identifier
+= 	- Operator
+90 	- Integer Constant
+; 	- semicolon
+if 	- Keyword
+( 	- opening brackets
+a 	- Identifier
+>= 	- Operator
+1 	- Integer Constant
+&& 	- Operator
+a 	- Identifier
+<= 	- Operator
+10 	- Integer Constant
+) 	- closing brackets
+b 	- Identifier
+++ 	- Operator
+; 	- semicolon
+else 	- Keyword
+{ 	- opening curly brackets
+b 	- Identifier
+-- 	- Operator
+; 	- semicolon
+ERROR: unmatched comment at line no. 21
+/
+
+
+Symbol Table
+
+a	Identifier
+b	Identifier
+marks	Identifier
+student	Identifier
+main	Keyword
+if	Keyword
+int	Keyword
+else	Keyword
+struct	Keyword
+student1	Identifier
+rollNum	Identifier
+
+
+Constant Table
+
+10	Integer Constant
+90	Integer Constant
+0	Integer Constant
+1	Integer Constant
+************************************************************
+
+
+Running TestCase 10
+************************************************************
+#include<stdio.h> 	-Preprocessor statement
+int 	- Keyword
+main 	- Keyword
+( 	- opening brackets
+) 	- closing brackets
+{ 	- opening curly brackets
+long 	- Keyword
+int 	- Keyword
+a 	- Identifier
+, 	- comma separator
+b 	- Identifier
+; 	- semicolon
+unsigned 	- Keyword
+long 	- Keyword
+int 	- Keyword
+x 	- Identifier
+; 	- semicolon
+signed 	- Keyword
+short 	- Keyword
+int 	- Keyword
+y 	- Identifier
+; 	- semicolon
+signed 	- Keyword
+short 	- Keyword
+z 	- Identifier
+; 	- semicolon
+int 	- Keyword
+w 	- Identifier
+; 	- semicolon
+a 	- Identifier
+= 	- Operator
+23 	- Integer Constant
+; 	- semicolon
+b 	- Identifier
+= 	- Operator
+15 	- Integer Constant
+; 	- semicolon
+int 	- Keyword
+c 	- Identifier
+= 	- Operator
+a 	- Identifier
++ 	- Operator
+b 	- Identifier
+; 	- semicolon
+printf 	- Keyword
+( 	- opening brackets
+"%d" 	- String Constant
+, 	- comma separator
+c 	- Identifier
+) 	- closing brackets
+; 	- semicolon
+c 	- Identifier
+= 	- Operator
+a 	- Identifier
+- 	- Operator
+b 	- Identifier
+; 	- semicolon
+printf 	- Keyword
+( 	- opening brackets
+"%d" 	- String Constant
+, 	- comma separator
+c 	- Identifier
+) 	- closing brackets
+; 	- semicolon
+c 	- Identifier
+= 	- Operator
+a 	- Identifier
+* 	- Operator
+b 	- Identifier
+; 	- semicolon
+printf 	- Keyword
+( 	- opening brackets
+"%d" 	- String Constant
+, 	- comma separator
+c 	- Identifier
+) 	- closing brackets
+; 	- semicolon
+c 	- Identifier
+= 	- Operator
+a 	- Identifier
+/ 	- Operator
+b 	- Identifier
+; 	- semicolon
+printf 	- Keyword
+( 	- opening brackets
+"%d" 	- String Constant
+, 	- comma separator
+c 	- Identifier
+) 	- closing brackets
+; 	- semicolon
+c 	- Identifier
+= 	- Operator
+a 	- Identifier
+% 	- Operator
+b 	- Identifier
+; 	- semicolon
+printf 	- Keyword
+( 	- opening brackets
+"%d" 	- String Constant
+, 	- comma separator
+c 	- Identifier
+) 	- closing brackets
+; 	- semicolon
+c 	- Identifier
+= 	- Operator
+( 	- opening brackets
+a 	- Identifier
+>= 	- Operator
+b 	- Identifier
+) 	- closing brackets
+; 	- semicolon
+printf 	- Keyword
+( 	- opening brackets
+"%d" 	- String Constant
+, 	- comma separator
+c 	- Identifier
+) 	- closing brackets
+; 	- semicolon
+c 	- Identifier
+= 	- Operator
+( 	- opening brackets
+a 	- Identifier
+<= 	- Operator
+b 	- Identifier
+) 	- closing brackets
+; 	- semicolon
+printf 	- Keyword
+( 	- opening brackets
+"%d" 	- String Constant
+, 	- comma separator
+c 	- Identifier
+) 	- closing brackets
+; 	- semicolon
+c 	- Identifier
+= 	- Operator
+( 	- opening brackets
+a 	- Identifier
+== 	- Operator
+b 	- Identifier
+) 	- closing brackets
+; 	- semicolon
+printf 	- Keyword
+( 	- opening brackets
+"%d" 	- String Constant
+, 	- comma separator
+c 	- Identifier
+) 	- closing brackets
+; 	- semicolon
+c 	- Identifier
+= 	- Operator
+( 	- opening brackets
+a 	- Identifier
+| 	- Operator
+b 	- Identifier
+) 	- closing brackets
+; 	- semicolon
+printf 	- Keyword
+( 	- opening brackets
+"%d" 	- String Constant
+, 	- comma separator
+c 	- Identifier
+) 	- closing brackets
+; 	- semicolon
+c 	- Identifier
+= 	- Operator
+( 	- opening brackets
+a 	- Identifier
+!= 	- Operator
+b 	- Identifier
+) 	- closing brackets
+; 	- semicolon
+printf 	- Keyword
+( 	- opening brackets
+"%d" 	- String Constant
+, 	- comma separator
+c 	- Identifier
+) 	- closing brackets
+; 	- semicolon
+} 	- closing curly brackets
+
+
+Symbol Table
+
+a	Identifier
+b	Identifier
+c	Identifier
+w	Identifier
+x	Identifier
+y	Identifier
+z	Identifier
+signed	Keyword
+main	Keyword
+short	Keyword
+int	Keyword
+unsigned	Keyword
+printf	Keyword
+long	Keyword
+
+
+Constant Table
+
+"%d"	String Constant
+15	Integer Constant
+23	Integer Constant
+************************************************************
+
+
+Running TestCase 11
+************************************************************
+//switch-case 	- same line comment
+//++ operator, -- operator 	- same line comment
+#include<stdio.h> 	-Preprocessor statement
+int 	- Keyword
+main 	- Keyword
+( 	- opening brackets
+) 	- closing brackets
+{ 	- opening curly brackets
+char 	- Keyword
+a 	- Identifier
+= 	- Operator
+'m' 	- Character Constant
+; 	- semicolon
+if 	- Keyword
+( 	- opening brackets
+a 	- Identifier
+== 	- Operator
+'m' 	- Character Constant
+) 	- closing brackets
+{ 	- opening curly brackets
+return 	- Keyword
+1 	- Integer Constant
+; 	- semicolon
+} 	- closing curly brackets
+else 	- Keyword
+{ 	- opening curly brackets
+a 	- Identifier
+++ 	- Operator
+; 	- semicolon
+} 	- closing curly brackets
+switch 	- Keyword
+( 	- opening brackets
+a 	- Identifier
+) 	- closing brackets
+{ 	- opening curly brackets
+case 	- Keyword
+'l' 	- Character Constant
+: 	- colon
+a 	- Identifier
+++ 	- Operator
+; 	- semicolon
+break 	- Keyword
+; 	- semicolon
+case 	- Keyword
+'m' 	- Character Constant
+: 	- colon
+a 	- Identifier
+-- 	- Operator
+; 	- semicolon
+break 	- Keyword
+; 	- semicolon
+case 	- Keyword
+'n' 	- Character Constant
+: 	- colon
+a 	- Identifier
+= 	- Operator
+a 	- Identifier
++ 	- Operator
+2 	- Integer Constant
+; 	- semicolon
+break 	- Keyword
+; 	- semicolon
+default 	- Keyword
+: 	- colon
+a 	- Identifier
+= 	- Operator
+a 	- Identifier
++ 	- Operator
+3 	- Integer Constant
+; 	- semicolon
+} 	- closing curly brackets
+printf 	- Keyword
+( 	- opening brackets
+"%c" 	- String Constant
+, 	- comma separator
+a 	- Identifier
+) 	- closing brackets
+; 	- semicolon
+} 	- closing curly brackets
+
+
+Symbol Table
+
+char	Keyword
+a	Identifier
+break	Keyword
+main	Keyword
+if	Keyword
+int	Keyword
+case	Keyword
+default	Keyword
+else	Keyword
+switch	Keyword
+printf	Keyword
+return	Keyword
+
+
+Constant Table
+
+"%c"	String Constant
+'l'	Character Constant
+'m'	Character Constant
+'n'	Character Constant
+1	Integer Constant
+2	Integer Constant
+3	Integer Constant
+************************************************************
+
+
+Running TestCase 12
+************************************************************
+//loop syntaxes and continue 	- same line comment
+#include<stdio.h> 	-Preprocessor statement
+int 	- Keyword
+main 	- Keyword
+( 	- opening brackets
+) 	- closing brackets
+{ 	- opening curly brackets
+int 	- Keyword
+a 	- Identifier
+= 	- Operator
+0 	- Integer Constant
+; 	- semicolon
+for 	- Keyword
+( 	- opening brackets
+a 	- Identifier
+= 	- Operator
+0 	- Integer Constant
+; 	- semicolon
+a 	- Identifier
+< 	- Operator
+10 	- Integer Constant
+; 	- semicolon
+a 	- Identifier
+++ 	- Operator
+) 	- closing brackets
+continue 	- Keyword
+; 	- semicolon
+while 	- Keyword
+( 	- opening brackets
+a 	- Identifier
+> 	- Operator
+0 	- Integer Constant
+) 	- closing brackets
+{ 	- opening curly brackets
+a 	- Identifier
+-- 	- Operator
+; 	- semicolon
+} 	- closing curly brackets
+do 	- Keyword
+{ 	- opening curly brackets
+a 	- Identifier
+++ 	- Operator
+; 	- semicolon
+} 	- closing curly brackets
+while 	- Keyword
+( 	- opening brackets
+a 	- Identifier
+< 	- Operator
+10 	- Integer Constant
+) 	- closing brackets
+; 	- semicolon
+} 	- closing curly brackets
+
+
+Symbol Table
+
+a	Identifier
+for	Keyword
+main	Keyword
+do	Keyword
+while	Keyword
+int	Keyword
+continue	Keyword
+
+
+Constant Table
+
+10	Integer Constant
+0	Integer Constant
+************************************************************
+
+
+Running TestCase 13
+************************************************************
+//Generic test 	- same line comment
+#include<stdio.h> 	-Preprocessor statement
+int 	- Keyword
+main 	- Keyword
+( 	- opening brackets
+) 	- closing brackets
+{ 	- opening curly brackets
+int 	- Keyword
+a 	- Identifier
+, 	- comma separator
+b 	- Identifier
+; 	- semicolon
+char 	- Keyword
+c 	- Identifier
+; 	- semicolon
+for 	- Keyword
+( 	- opening brackets
+a 	- Identifier
+= 	- Operator
+0 	- Integer Constant
+; 	- semicolon
+a 	- Identifier
+< 	- Operator
+29 	- Integer Constant
+; 	- semicolon
+a 	- Identifier
+++ 	- Operator
+) 	- closing brackets
+{ 	- opening curly brackets
+if 	- Keyword
+( 	- opening brackets
+a 	- Identifier
+< 	- Operator
+15 	- Integer Constant
+) 	- closing brackets
+{ 	- opening curly brackets
+printf 	- Keyword
+( 	- opening brackets
+"Hello World" 	- String Constant
+) 	- closing brackets
+; 	- semicolon
+} 	- closing curly brackets
+} 	- closing curly brackets
+int 	- Keyword
+x 	- Identifier
+= 	- Operator
+a 	- Identifier
++ 	- Operator
+b 	- Identifier
+; 	- semicolon
+// Single Line Comment 	- same line comment
+/* This is a 
+	   multi-line comment */ 	- multiple line comment
+int 	- Keyword
+var1 	- Identifier
+; 	- semicolon
+char 	- Keyword
+var2 	- Identifier
+; 	- semicolon
+printf 	- Keyword
+( 	- opening brackets
+"%d" 	- String Constant
+, 	- comma separator
+x 	- Identifier
+) 	- closing brackets
+; 	- semicolon
+} 	- closing curly brackets
+
+
+Symbol Table
+
+char	Keyword
+a	Identifier
+b	Identifier
+c	Identifier
+x	Identifier
+for	Keyword
+var1	Identifier
+var2	Identifier
+main	Keyword
+if	Keyword
+int	Keyword
+printf	Keyword
+
+
+Constant Table
+
+"Hello World"	String Constant
+"%d"	String Constant
+15	Integer Constant
+29	Integer Constant
+0	Integer Constant
+************************************************************
+
+
+Running TestCase 14
+************************************************************
+#include<stdio.h> 	-Preprocessor statement
+int 	- Keyword
+main 	- Keyword
+( 	- opening brackets
+) 	- closing brackets
+{ 	- opening curly brackets
+char 	- Keyword
+ERROR: at line no. 5
+@
+
+
+Symbol Table
+
+char	Keyword
+main	Keyword
+int	Keyword
+
+
+Constant Table
+
+************************************************************
+
+
+Running TestCase 15
+************************************************************
+#include <stdio.h> 	-Preprocessor statement
+int 	- Keyword
+main 	- Keyword
+( 	- opening brackets
+) 	- closing brackets
+{ 	- opening curly brackets
+i 	- Identifier
+= 	- Operator
+10 	- Integer Constant
+; 	- semicolon
+//simple program 	- same line comment
+} 	- closing curly brackets
+
+
+Symbol Table
+
+i	Identifier
+main	Keyword
+int	Keyword
+
+
+Constant Table
+
+10	Integer Constant
+************************************************************

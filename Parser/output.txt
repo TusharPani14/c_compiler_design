@@ -1,0 +1,350 @@
+Running: 17
+
+
+===================================  [1;33mRunning TestCase 1[0m  ===================================
+[32mStatus: Parsing Complete - Valid[0m
+                              [36mSYMBOL TABLE[0m
+                               ------------
+    SYMBOL |           CLASS |       TYPE |      VALUE |    LINE NO
+---------------------------------------------------------------------------------
+      char |         Keyword |            |            |          5
+         i |      Identifier |        int |         10 |          4
+         n |      Identifier |        int |            |          4
+         x |      Identifier |        int |         10 |          9
+       for |         Keyword |            |            |          7
+      main |      Identifier |        int |            |          3
+        ch |      Identifier |       char |            |          5
+     while |         Keyword |            |            |         10
+        if |         Keyword |            |            |          8
+       int |         Keyword |            |            |          3
+
+
+                              [36mCONSTANT TABLE[0m
+                               --------------
+      NAME |            TYPE
+---------------------------------------------------------------------------------
+        10 | Number Constant
+         0 | Number Constant
+
+
+===================================  [1;33mRunning TestCase 2[0m  ===================================
+[32mStatus: Parsing Complete - Valid[0m
+                              [36mSYMBOL TABLE[0m
+                               ------------
+    SYMBOL |           CLASS |       TYPE |      VALUE |    LINE NO
+---------------------------------------------------------------------------------
+      char |         Keyword |            |            |          3
+         a |      Identifier |        int |          2 |          8
+         b |      Identifier |        int |            |          8
+         c |      Identifier |        int |            |          8
+         d |      Identifier |        int |            |          8
+         e |      Identifier |        int |            |          8
+         f |      Identifier |        int |            |          8
+         g |      Identifier |        int |            |          8
+         h |      Identifier |        int |            |          8
+         x |      Identifier |       char |            |          3
+       fun |      Identifier |        int |            |          3
+      main |      Identifier |       void |            |          7
+       int |         Keyword |            |            |          3
+      void |         Keyword |            |            |          7
+    return |         Keyword |            |            |          4
+
+
+                              [36mCONSTANT TABLE[0m
+                               --------------
+      NAME |            TYPE
+---------------------------------------------------------------------------------
+         2 | Number Constant
+
+
+===================================  [1;33mRunning TestCase 3[0m  ===================================
+[32mStatus: Parsing Complete - Valid[0m
+                              [36mSYMBOL TABLE[0m
+                               ------------
+    SYMBOL |           CLASS |       TYPE |      VALUE |    LINE NO
+---------------------------------------------------------------------------------
+      char |         Keyword |            |            |          4
+         S | Array Identifier |       char |            |          7
+         a | Array Identifier |        int |            |          6
+         p |      Identifier |        int |            |          9
+         s | Array Identifier |       char |        'l' |          4
+      main |      Identifier |        int |            |          3
+        if |         Keyword |            |            |         10
+       int |         Keyword |            |            |          3
+      else |         Keyword |            |            |         21
+    printf |      Identifier |            |   "Bug3\n" |         13
+
+
+                              [36mCONSTANT TABLE[0m
+                               --------------
+      NAME |            TYPE
+---------------------------------------------------------------------------------
+"Welcome!!" | String Constant
+  "Bug3\n" | String Constant
+  "Bug2\n" | String Constant
+  "Bug1\n" | String Constant
+       'W' | Character Constant
+       'e' | Character Constant
+       'l' | Character Constant
+        10 | Number Constant
+        20 | Number Constant
+         0 | Number Constant
+         1 | Number Constant
+         2 | Number Constant
+
+
+===================================  [1;33mRunning TestCase 4[0m  ===================================
+[32mStatus: Parsing Complete - Valid[0m
+                              [36mSYMBOL TABLE[0m
+                               ------------
+    SYMBOL |           CLASS |       TYPE |      VALUE |    LINE NO
+---------------------------------------------------------------------------------
+         a | Array Identifier |        int |          0 |          6
+      main |      Identifier |        int |            |          3
+       int |         Keyword |            |            |          3
+    printf |      Identifier |            |       "%d" |         10
+    return |         Keyword |            |            |         12
+
+
+                              [36mCONSTANT TABLE[0m
+                               --------------
+      NAME |            TYPE
+---------------------------------------------------------------------------------
+      "%d" | String Constant
+         0 | Number Constant
+         1 | Number Constant
+         2 | Number Constant
+         3 | Number Constant
+
+
+===================================  [1;33mRunning TestCase 5[0m  ===================================
+[32mStatus: Parsing Complete - Valid[0m
+                              [36mSYMBOL TABLE[0m
+                               ------------
+    SYMBOL |           CLASS |       TYPE |      VALUE |    LINE NO
+---------------------------------------------------------------------------------
+         a |      Identifier |        int |          0 |          5
+         b |      Identifier |        int |          0 |         17
+      main |      Identifier |        int |            |          3
+     while |         Keyword |            |            |          6
+       int |         Keyword |            |            |          3
+    printf |      Identifier |            |       "%d" |          8
+
+
+                              [36mCONSTANT TABLE[0m
+                               --------------
+      NAME |            TYPE
+---------------------------------------------------------------------------------
+      "%d" | String Constant
+"Hello world" | String Constant
+         0 | Number Constant
+         4 | Number Constant
+         5 | Number Constant
+
+
+===================================  [1;33mRunning TestCase 6[0m  ===================================
+[32mStatus: Parsing Complete - Valid[0m
+                              [36mSYMBOL TABLE[0m
+                               ------------
+    SYMBOL |           CLASS |       TYPE |      VALUE |    LINE NO
+---------------------------------------------------------------------------------
+         a |      Identifier |        int |          2 |          5
+         b |      Identifier |        int |          8 |          8
+         c |      Identifier |        int |          3 |          9
+         d |      Identifier |        int |            |         13
+      main |      Identifier |        int |            |          3
+       int |         Keyword |            |            |          3
+    printf |      Identifier |            |       "%d" |          6
+
+
+                              [36mCONSTANT TABLE[0m
+                               --------------
+      NAME |            TYPE
+---------------------------------------------------------------------------------
+      "%d" | String Constant
+         2 | Number Constant
+         3 | Number Constant
+         4 | Number Constant
+         8 | Number Constant
+
+
+===================================  [1;33mRunning TestCase 7[0m  ===================================
+[32mStatus: Parsing Complete - Valid[0m
+                              [36mSYMBOL TABLE[0m
+                               ------------
+    SYMBOL |           CLASS |       TYPE |      VALUE |    LINE NO
+---------------------------------------------------------------------------------
+         A |      Identifier |     struct |            |         16
+      char |         Keyword |            |            |         11
+       num |      Identifier |        int |          2 |         18
+         a |      Identifier |        int |          2 |          3
+         b |      Identifier |       char |            |         11
+    square |      Identifier |        int |            |          3
+      num2 |      Identifier |        int |          0 |         19
+      main |      Identifier |        int |            |         14
+       int |         Keyword |            |            |          3
+       abc |      Identifier |     struct |            |          8
+    printf |      Identifier |            | "Square of %d is %d" |         21
+    return |         Keyword |            |            |          5
+    struct |         Keyword |            |            |          8
+
+
+                              [36mCONSTANT TABLE[0m
+                               --------------
+      NAME |            TYPE
+---------------------------------------------------------------------------------
+"Square of %d is %d" | String Constant
+         0 | Number Constant
+         2 | Number Constant
+
+
+===================================  [1;33mRunning TestCase 8[0m  ===================================
+
+
+===================================  [1;33mRunning TestCase 9[0m  ===================================
+21 syntax error /
+[31mStatus: Parsing Failed - Invalid
+[0m
+
+===================================  [1;33mRunning TestCase 10[0m  ===================================
+[32mStatus: Parsing Complete - Valid[0m
+                              [36mSYMBOL TABLE[0m
+                               ------------
+    SYMBOL |           CLASS |       TYPE |      VALUE |    LINE NO
+---------------------------------------------------------------------------------
+         a |      Identifier |        int |         23 |          8
+         b |      Identifier |        int |         15 |          8
+         c |      Identifier |        int |            |         15
+         w |      Identifier |        int |            |         12
+         x |      Identifier |        int |            |          9
+         y |      Identifier |        int |            |         10
+         z |      Identifier |      short |            |         11
+    signed |         Keyword |            |            |         10
+      main |      Identifier |        int |            |          6
+     short |         Keyword |            |            |         10
+       int |         Keyword |            |            |          6
+  unsigned |         Keyword |            |            |          9
+    printf |      Identifier |            |       "%d" |         16
+      long |         Keyword |            |            |          8
+
+
+                              [36mCONSTANT TABLE[0m
+                               --------------
+      NAME |            TYPE
+---------------------------------------------------------------------------------
+      "%d" | String Constant
+        15 | Number Constant
+        23 | Number Constant
+
+
+===================================  [1;33mRunning TestCase 11[0m  ===================================
+[32mStatus: Parsing Complete - Valid[0m
+                              [36mSYMBOL TABLE[0m
+                               ------------
+    SYMBOL |           CLASS |       TYPE |      VALUE |    LINE NO
+---------------------------------------------------------------------------------
+      char |         Keyword |            |            |          4
+         a |      Identifier |        int |            |          1
+         b | Array Identifier |        int |            |          2
+         c |      Identifier |        int |          3 |          3
+         d | Array Identifier |       char |     "kjbk" |          4
+         e | Array Identifier |       char |    "jljlj" |          5
+         f | Array Identifier |        int |            |          6
+         g |      Identifier |        int |            |          7
+         h |      Identifier |        int |          3 |          7
+         i |      Identifier |        int |            |          7
+       int |         Keyword |            |            |          1
+    myfunc |      Identifier |        int |            |          8
+
+
+                              [36mCONSTANT TABLE[0m
+                               --------------
+      NAME |            TYPE
+---------------------------------------------------------------------------------
+    "kjbk" | String Constant
+       100 | Number Constant
+   "jljlj" | String Constant
+        10 | Number Constant
+         0 | Number Constant
+         3 | Number Constant
+
+
+===================================  [1;33mRunning TestCase 12[0m  ===================================
+[32mStatus: Parsing Complete - Valid[0m
+                              [36mSYMBOL TABLE[0m
+                               ------------
+    SYMBOL |           CLASS |       TYPE |      VALUE |    LINE NO
+---------------------------------------------------------------------------------
+         a |      Identifier |        int |         10 |         10
+       for |         Keyword |            |            |         11
+      main |      Identifier |        int |            |          8
+        do |         Keyword |            |            |         18
+     while |         Keyword |            |            |         14
+       int |         Keyword |            |            |          8
+  continue |      Identifier |            |            |         12
+
+
+                              [36mCONSTANT TABLE[0m
+                               --------------
+      NAME |            TYPE
+---------------------------------------------------------------------------------
+        10 | Number Constant
+         0 | Number Constant
+
+
+===================================  [1;33mRunning TestCase 13[0m  ===================================
+[32mStatus: Parsing Complete - Valid[0m
+                              [36mSYMBOL TABLE[0m
+                               ------------
+    SYMBOL |           CLASS |       TYPE |      VALUE |    LINE NO
+---------------------------------------------------------------------------------
+      char |         Keyword |            |            |          7
+         a |      Identifier |        int |         15 |          6
+         b |      Identifier |        int |            |          6
+         c |      Identifier |       char |            |          7
+         x |      Identifier |        int |            |         14
+       for |         Keyword |            |            |          8
+      var1 |      Identifier |        int |            |         18
+      var2 |      Identifier |       char |            |         19
+      main |      Identifier |        int |            |          4
+        if |         Keyword |            |            |         10
+       int |         Keyword |            |            |          4
+    printf |      Identifier |            |       "%d" |         11
+
+
+                              [36mCONSTANT TABLE[0m
+                               --------------
+      NAME |            TYPE
+---------------------------------------------------------------------------------
+"Hello World" | String Constant
+      "%d" | String Constant
+        15 | Number Constant
+        29 | Number Constant
+         0 | Number Constant
+
+
+===================================  [1;33mRunning TestCase 14[0m  ===================================
+ERROR at line no. 6
+@
+6 syntax error @
+[31mStatus: Parsing Failed - Invalid
+[0m
+
+===================================  [1;33mRunning TestCase 15[0m  ===================================
+ERROR at line no. 4
+9
+4 syntax error 9
+[31mStatus: Parsing Failed - Invalid
+[0m
+
+===================================  [1;33mRunning TestCase 16[0m  ===================================
+Error in Pre-Processor directive at line no. 1
+#
+1 syntax error #
+[31mStatus: Parsing Failed - Invalid
+[0m
+
+===================================  [1;33mRunning TestCase 17[0m  ===================================
+5 syntax error ;
+[31mStatus: Parsing Failed - Invalid
+[0m
